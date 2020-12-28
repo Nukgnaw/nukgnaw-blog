@@ -10,7 +10,7 @@
     "blog:build": "vuepress build blog --no-cache",
     "dev": "yarn blog:dev",
     "build": "yarn blog:build",
-    "delpoy": "bash deploy.sh"
+    "deploy": "bash deploy.sh"
   },
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
