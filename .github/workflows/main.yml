@@ -26,5 +26,9 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Config git identity
+        run: git config --global user.name "nukgnaw"
+        run: git config --global user.email "kun7016@gmail.com"
+
       - name: Deploy
-        run: yarn deploy
+        run: npm run deploy
