@@ -12,9 +12,9 @@ cd blog/.vuepress/dist
 # if you are deploying to a custom domain
 # echo 'www.example.com' > CNAME
 
+git init
 git config user.name "nukgnaw" 
 git config user.email "kun7016@gmail.com"
-git init
 git checkout -b main
 git add -A
 git commit -m 'deploy'
