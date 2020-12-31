@@ -31,8 +31,6 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-          mkdir quickstart
-          cd $HOME/quickstart
           git clone https://github.com/Nukgnaw/nukgnaw.github.io.git
           cd nukgnaw.github.io
           az webapp up --location eastasia --name nukgnaw --html
