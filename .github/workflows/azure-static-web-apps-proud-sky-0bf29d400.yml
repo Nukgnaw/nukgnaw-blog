@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-    path-ignore: 
+    paths-ignore: 
       - 'README.md'
       - '.gitignore'
       - 'LICENSE'
@@ -12,7 +12,7 @@ on:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
-    path-ignore: 
+    paths-ignore: 
       - 'README.md'
       - '.gitignore'
       - 'LICENSE'

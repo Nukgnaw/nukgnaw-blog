@@ -1,9 +1,9 @@
-name: CI
+name: Github Pages/Azure App Service CI/CD
 
 on:
   push:
     branches: [ main ]
-    path-ignore: 
+    paths-ignore: 
       - 'README.md'
       - '.gitignore'
       - 'LICENSE'
