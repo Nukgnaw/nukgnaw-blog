@@ -19,6 +19,10 @@ module.exports = {
           type: 'mail',
           link: 'mailto:kun7016@gmail.com',
         },
+        {
+          type: 'github',
+          link: 'https://github.com/Nukgnaw/nukgnaw-blog',
+        },
       ],
       copyright: [
         {
