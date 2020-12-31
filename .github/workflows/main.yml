@@ -3,6 +3,10 @@ name: CI
 on:
   push:
     branches: [ main ]
+    path-ignore: 
+      - 'README.md'
+      - '.gitignore'
+      - 'LICENSE'
 
 jobs:
   deploy_github_pages:
@@ -22,15 +26,15 @@ jobs:
     needs: deploy_github_pages
     runs-on: ubuntu-latest
     steps:
-    - name: Azure Login
-      uses: azure/login@v1
-      with:
-        creds: ${{secrets.AZURE_CREDENTIALS}}
-    
-    - name: Azure CLI script
-      uses: azure/CLI@v1
-      with:
-        inlineScript: |
-          git clone https://github.com/Nukgnaw/nukgnaw.github.io.git
-          cd nukgnaw.github.io
-          az webapp up --location eastasia --name nukgnaw --html
+      - name: Azure Login
+        uses: azure/login@v1
+        with:
+          creds: ${{secrets.AZURE_CREDENTIALS}}
+      
+      - name: Azure CLI script
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            git clone https://github.com/Nukgnaw/nukgnaw.github.io.git
+            cd nukgnaw.github.io
+            az webapp up --location eastasia --name nukgnaw --html

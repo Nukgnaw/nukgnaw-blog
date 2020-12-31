@@ -4,10 +4,18 @@ on:
   push:
     branches:
       - main
+    path-ignore: 
+      - 'README.md'
+      - '.gitignore'
+      - 'LICENSE'
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+    path-ignore: 
+      - 'README.md'
+      - '.gitignore'
+      - 'LICENSE'
 
 jobs:
   build_and_deploy_job:
