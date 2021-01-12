@@ -12,6 +12,10 @@ module.exports = {
         text: '标签',
         link: '/tag/',
       },
+      {
+        text: '推荐',
+        link: '/recommend/'
+      },
     ],
     footer: {
       contact: [
