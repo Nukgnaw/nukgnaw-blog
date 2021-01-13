@@ -57,4 +57,10 @@ module.exports = {
       md.use(require('markdown-it-sub'));
     }
   },
+  plugins: [
+    [
+      'vuepress-plugin-mathjax',
+      {},
+    ],
+  ],
 }
