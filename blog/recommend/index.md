@@ -1,3 +1,7 @@
+---
+title: 推荐
+---
+
 ## 亦师亦友
 
 * [库罗新渚](http://kuroshinju.cn/)

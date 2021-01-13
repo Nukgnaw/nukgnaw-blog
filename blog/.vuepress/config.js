@@ -2,6 +2,14 @@ module.exports = {
   title: '王坤的博客',
   theme: '@vuepress/theme-blog',
   themeConfig: {
+    directories: [
+      {
+        id: 'post',
+        dirname: '_posts',
+        title: '文章',
+        path: '/',
+      },
+    ],
     dateFormat: 'YYYY-MM-DD',
     nav: [
       {
