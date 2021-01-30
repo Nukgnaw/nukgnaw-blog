@@ -8,6 +8,7 @@ module.exports = {
         dirname: '_posts',
         title: '文章',
         path: '/',
+        itemPermalink: '/post/:slug',
       },
     ],
     dateFormat: 'YYYY-MM-DD',
