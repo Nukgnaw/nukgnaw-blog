@@ -1,5 +1,6 @@
 ---
 title: 电子游戏：独特的教育环境
+permalink: /2021/01/16/video-games-a-unique-educational-environment
 date: 2021-01-16
 tags:
   - 译文
