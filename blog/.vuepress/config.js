@@ -64,4 +64,8 @@ module.exports = {
       {},
     ],
   ],
+  head: [
+    ['link', { rel: 'icon', href: '/infinity-icon.png' }],
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
+  ],
 }
