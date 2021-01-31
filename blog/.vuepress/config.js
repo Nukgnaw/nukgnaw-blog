@@ -66,6 +66,7 @@ module.exports = {
   ],
   head: [
     ['link', { rel: 'icon', href: '/infinity-icon.png' }],
-    ['link', { rel: 'manifest', href: '/manifest.json' }],
+    ['link', { rel: 'apple-touch-icon', href: '/infinity-icon.png' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/infinity-icon.png' }],
   ],
 }
