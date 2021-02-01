@@ -50,6 +50,9 @@ module.exports = {
       lengthPerPage:'5',
       layout:'Pagination',
     },
+    feed: {
+      canonical_base: 'https://nukgnaw.com',
+    }
   },
   markdown: {
     extendMarkdown: md => {
