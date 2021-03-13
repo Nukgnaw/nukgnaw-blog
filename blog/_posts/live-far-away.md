@@ -18,7 +18,7 @@ summary:
 
 <div class="center-text">
 
-<span class='transparent'>[1]</span>十年远四邻，六载居八寅[^3]。
+十年远四邻，六载居八寅[^3]。
 
 渐惯私交少，无妨共事频。
 
