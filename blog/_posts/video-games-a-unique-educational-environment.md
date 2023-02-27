@@ -11,9 +11,9 @@ summary:
   除了对话，所有复杂且交互的事物，都需要大量的初始投入，但电子游戏例外，因此我认为，电子游戏是人类文化上的突破。它不是文化中短暂、边缘的方面；因其交互性，它注定会成为接下来的历史中，人类学习的重要手段。为什么交互如此重要？因为与一个复杂的实体互动，就是生活、思想、创造力、艺术与科学的全部内容。
 ---
 
-文章翻译自[英文](http://www.takingchildrenseriously.com/video_games_a_unique_educational_environment)，原文版权为[戴维·多伊奇](http://www.daviddeutsch.org.uk/)所有。一切翻译错漏，责任在我。
+文章翻译自[英文](http://www.takingchildrenseriously.com/video-games-a-unique-educational-environment)，原文版权为[戴维·多伊奇](http://www.daviddeutsch.org.uk/)所有。一切翻译错漏，责任在我。
 
-This article is translated from [English](https://www.takingchildrenseriously.com/video_games_a_unique_educational_environment). The original is Copyright to [David Deutsch](http://www.daviddeutsch.org.uk/), and the responsibility for the translation is all on me.
+This article is translated from [English](https://www.takingchildrenseriously.com/video-games-a-unique-educational-environment). The original is Copyright to [David Deutsch](http://www.daviddeutsch.org.uk/), and the responsibility for the translation is all on me.
 
 <br/>
 
