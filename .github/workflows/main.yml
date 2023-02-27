@@ -17,13 +17,14 @@ jobs:
         with:
           node-version: 16
 
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
-
-      - name: Deploy
+      - name: vuepress-deploy
+        uses: jenkey2011/vuepress-deploy@master
         env:
-          GH_TOKEN: ${{secrets.PAT_FOR_ACTION}}
-        run: npm run deploy
+          ACCESS_TOKEN: ${{ secrets.PAT_FOR_ACTION }}
+          TARGET_REPO: nukgnaw/nukgnaw.github.io
+          TARGET_BRANCH: main
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: blog/.vuepress/dist/
   
   deploy_azure_web_app:
     needs: deploy_github_pages
